@@ -4,7 +4,7 @@ image_config: &image_config
   # either as project-specific environment variables
   # or as resources in your organization's org-global Context
 
-  IMAGE_NAME: crushlovely-ruby-2.3.1
+  IMAGE_NAME: ruby-2.3.1
 
   IMAGE_TAG: 0.0.1
 
@@ -17,9 +17,9 @@ image_config: &image_config
 
   RUBY_VERSION_NUM: 2.3.1
 
-  NODE_VERSION_NUM: v6.2.0
+  NODE_VERSION_NUM: 6.2.0
 
-  # # PYTHON_VERSION_NUM: # pick a version from https://python.org/ftp/python
+  PYTHON_VERSION_NUM: 2.7.8
 
   JAVA: false
 
@@ -27,7 +27,7 @@ image_config: &image_config
 
   POSTGRES_CLIENT: false
 
-  DOCKERIZE: false
+  DOCKERIZE: true
 
   BROWSERS: false
 
