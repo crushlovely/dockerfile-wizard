@@ -11,7 +11,9 @@ if [ ! -e $RUBY_VERSION_NUM ] ; then
     ./configure && \
     make -j4 && \
     make install && \
-    ruby -v"
+    ruby -v && \
+    gem install bundler && \
+    bundle -v"
 fi
 
 if [ ! -e $NODE_VERSION_NUM ] ; then
